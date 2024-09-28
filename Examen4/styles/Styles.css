@@ -1,0 +1,113 @@
+html {
+    font-size: 62.5%;
+}
+
+h2{
+    font-size: 2rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+:root {
+    --dark: #000000;
+    --background: #f8f4eb;
+    --primary: #2b7c39;
+    --secondary: #f0a417;
+    --gray: #757575;
+}
+
+body{
+    background-color: var(--background);
+}
+
+.header{
+    text-align: center;
+}
+
+.imagen{
+    text-align: center;
+}
+
+
+.enlaces {
+    text-align: center;
+}
+
+.enlaces-botones{
+margin-top: 1rem;
+}
+
+.boton{
+    border-radius: 40px;
+    background-color: var(--background);
+    color: var(--primary);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.boton:hover {
+    cursor: pointer;
+    background-color: #2b7c39;
+    color: var(--background);
+}
+
+.boton2:hover{
+   cursor: pointer; 
+   background-color: var(--background);
+   color: var(--primary);
+}
+
+.lista{
+    text-align: center;
+    color: var(--primary);
+}
+
+.boton2{
+    background-color: var(--primary);
+    color: var(--background);
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 40px;
+}
+
+.social{
+text-align: center;
+margin-bottom: 4rem;
+margin-top: 4rem;
+
+}
+
+.link{
+    font-size: 2rem ;
+    text-align: center;
+    color: #000000;
+    margin-top: 4rem;
+
+}
+
+.old{
+    text-align: center;
+
+}
+
+.sponsor{
+    text-align: center;
+}
+
+footer{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.enlaces-botones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    height: 10rem     
+}
